@@ -1,0 +1,121 @@
+/*
+background colour #244F26
+text colour #FCF300
+border colour #A44200
+?????? #B8B8D1 lavender gray
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+    color: #FCF300;
+    background: #244F26;
+    font-family: 'Happy Monkey', cursive;
+    margin: 0;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-resize {
+    width: 500px;
+    height: 500px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.image {
+    background-size: cover;
+    background-image: url("coco-tafoya-_Q0dP8xiUGA-unsplash.jpg");
+}
+
+#bday-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #A44200;
+}
+
+#bday-age, #bday-date {
+    text-shadow: 0 0 1px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background:  #A44200;
+}
+
+#bday-date {
+    margin: 0;
+}
+
+/* ################################################# */
+
+#gift-section {
+    margin: 50px 0 0 0;
+}
+
+#gift-h1 {
+    margin: 0;
+}
+
+#gift-h3 {
+    margin: 30px 0 30px 0;
+}
+
+#gift-img:hover {
+    background-image: url('https://media.giphy.com/media/l4Ki3HQwUC3nJbnOM/giphy.gif');
+    background-size: cover;
+}
+
+/* ####################################################### */
+
+.feeling {
+    margin-bottom: 50px;
+}
+
+#feeling-img:hover {
+    background-image: url("https://media.giphy.com/media/n7TyooZtZn3Ko/giphy.gif");
+    background-size: cover;
+}
+
+/* ############################################# */
+
+.genius-h1 {
+    margin-bottom: 50px;
+}
+
+#genius-img:hover {
+    background-image: url("https://media.giphy.com/media/26xBBn4z48KUksgRa/giphy-downsized-large.gif");
+}
+
+.badass-h1 {
+    margin-bottom: 50px;
+}
+
+#badass-img:hover {
+    background-image: url("https://media.giphy.com/media/1qB3EwE3c54A/giphy.gif");
+    background-size: cover;
+}
+
+span {
+    border-bottom: 7px solid #A44200;
+}
+
+#cheers h1 {
+    margin-bottom: 50px;
+}
+
+#special-img {
+    background-image: url("./ekaterina-shevchenko-ZLTlHeKbh04-unsplash.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+#special-img:hover {
+    background-image: url("https://media.giphy.com/media/TiDCLLG0VNyPbTI7Pm/giphy.gif");
+    background-size: cover;
+}
