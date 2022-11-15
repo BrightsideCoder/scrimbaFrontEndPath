@@ -10,7 +10,7 @@ border colour #A44200
 
 body {
     color: #FCF300;
-    background: #244F26;
+    background: linear-gradient(#244F26, #832161);
     font-family: 'Happy Monkey', cursive;
     margin: 0;
     text-align: center;
